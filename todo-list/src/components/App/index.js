@@ -47,7 +47,7 @@ class App extends React.Component {
         <ul>
       {this.state.list.map((item) => {
         return (
-        <li key={this.state.list.id}>{item.task}</li>
+        <li key={item.id}>{item.task}</li>
         )
       })}
         </ul>
