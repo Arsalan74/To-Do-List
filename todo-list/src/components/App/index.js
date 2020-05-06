@@ -20,7 +20,7 @@ const App = () => {
   return (
   list.map((item)=> {
     return (
-      <div>
+      <div key={item.id}>
         {item.task}      
       </div>
     )
