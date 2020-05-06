@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 
+<<<<<<< HEAD
 const list=[{
     task:"asasa",
     id:'223'
@@ -43,5 +44,7 @@ const App = (prop) => {
         </>     
     );
 }
+
+
 
 export default App;
